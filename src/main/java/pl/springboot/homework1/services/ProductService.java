@@ -1,8 +1,9 @@
-package pl.springboot.homework1;
+package pl.springboot.homework1.services;
 
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import pl.springboot.homework1.Product;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,18 +34,18 @@ public class ProductService {
 
     public ProductService() {
 
-        Product product1 = new Product("Amiga", randGen());
-        Product product2 = new Product("Commodore", randGen());
-        Product product3 = new Product("Atari", randGen());
-        Product product4 = new Product("ZX", randGen());
-        Product product5 = new Product("Nintendo", randGen());
+        //Product product1 = new Product("Amiga", randGen());
+        //Product product2 = new Product("Commodore", randGen());
+        //Product product3 = new Product("Atari", randGen());
+        //Product product4 = new Product("ZX", randGen());
+        //Product product5 = new Product("Nintendo", randGen());
 
         products = new ArrayList<>();
-        products.add(product1);
-        products.add(product2);
-        products.add(product3);
-        products.add(product4);
-        products.add(product5);
+        products.add(new Product("Amiga", randGen()));
+        products.add(new Product("Commodore", randGen()));
+        products.add(new Product("Atari", randGen()));
+        products.add(new Product("ZX", randGen()));
+        products.add(new Product("Nintendo", randGen()));
 
     }
 

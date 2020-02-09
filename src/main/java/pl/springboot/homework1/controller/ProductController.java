@@ -1,10 +1,12 @@
-package pl.springboot.homework1;
+package pl.springboot.homework1.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import pl.springboot.homework1.Product;
+import pl.springboot.homework1.services.ProductService;
 
 import java.util.List;
 

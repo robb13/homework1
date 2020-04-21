@@ -1,0 +1,1 @@
+OPis aplickacji 

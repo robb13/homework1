@@ -6,5 +6,5 @@ Option PLUS, additionally allows to calculate VAT rate. VAT rate should be inclu
 Option PRO, apart from the VAT calculation feature, allows to calculate discount rate, as included in the configuration file. 
 The app will add 5 random products with random price (in the range 50-300 PLN) and shows the total price at a start. 
 
-2. Technologies 
+2. Technologies:
 - Java 8
